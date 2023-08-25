@@ -2,7 +2,9 @@ package projeler3;
 
 public class ucakBileti {
 
-    /*
+	public static void main(String[] args) {
+               
+		/*
 		 * Java ile mesafeye ve şartlara göre uçak bileti fiyatı hesaplayan programı
 		 * yapın. Kullanıcıdan Mesafe (KM), yaşı ve yolculuk tipi (Tek Yön, Gidiş-Dönüş)
 		 * bilgilerini alın. Mesafe başına ücret 0,10 TL / km olarak alın. İlk olarak
@@ -53,9 +55,8 @@ public class ucakBileti {
 				System.out.println("65 yas ustusunuz.." + ucret + " tl");
 
 			}
-
-		} else {
+			else {
 			System.out.println("hatali veri girdiniz!");
-		}
-  
+		        }
+    }
 }
